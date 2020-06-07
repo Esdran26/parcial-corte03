@@ -31,10 +31,10 @@ $resultSelectJoinMaxSent = $selectJoinMaxSent->fetch();
 </head>
 <body>
     <div class="contenido">
-        <div class="">
-            <div class="card  border-light mb-3" style="max-width: 18rem; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+        <div class="ejercicio">
+            <div class="card  border-secondary mb-3" style="max-width: 18rem; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
                 <div class="card-header" style="color: black;">Agrupación MIN</div>
-                <div class="card-body" style="color: black;">
+                <div class="card-body" style="color: black; ">
                     <h5 class="card-title">El producto con el menor precio de la categoría LACTEOS</h5>
                     <?php 
                         
@@ -48,7 +48,9 @@ $resultSelectJoinMaxSent = $selectJoinMaxSent->fetch();
 
                     ?>
                 </div>
+                
             </div>
+            <a href="index.php" class="btn btn-info" style="width: 40%;">Regresar</a>
         </div>
     </div>
 </body>
